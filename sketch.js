@@ -33,26 +33,26 @@ function preload() {
   bg.width = 600;
   bg.height = 300;
   
-  bluecar = loadImage("images\car_blue.png");
-  greencar = loadImage("images\car_green.png");
-  redcar = loadImage("images\car_red.png");
-  yellowcar = loadImage("images\car_yellow.png");
-  pinkcar = loadImage("images\car_pink.png");
-  purplecar = loadImage("images\car_purple.png");
+  bluecar = loadImage("..\images\car_blue.png");
+  greencar = loadImage("..\images\car_green.png");
+  redcar = loadImage("..\images\car_red.png");
+  yellowcar = loadImage("..\images\car_yellow.png");
+  pinkcar = loadImage("..\images\car_pink.png");
+  purplecar = loadImage("..\images\car_purple.png");
 
-  leftbigwallend = loadImage("images\ground2.png");
-  rightbigwallend = loadImage("images\ground2.png");
+  leftbigwallend = loadImage("..\images\ground2.png");
+  rightbigwallend = loadImage("..\images\ground2.png");
   
-  whitecar = loadImage("images\car_white.png")
+  whitecar = loadImage("..\images\car_white.png")
  
-  livespic = loadImage("images\lives5.png");
+  livespic = loadImage("..\images\lives5.png");
   
-  sound1 = loadSound("sounds\racecar2.mp3"); 
-  sound2 = loadSound("sounds\car-crash.mp3");
+  sound1 = loadSound("..\sounds\racecar2.mp3"); 
+  sound2 = loadSound("..\sounds\car-crash.mp3");
   
-  GAMEOVER = loadImage("images\gameover.png");
-  RESTART = loadImage("images\restart.png");
-  INSTRUCSTART = loadImage("images\Gamestart.png");
+  GAMEOVER = loadImage("..\images\gameover.png");
+  RESTART = loadImage("..\images\restart.png");
+  INSTRUCSTART = loadImage("..\images\Gamestart.png");
   
 }
 function setup() {
