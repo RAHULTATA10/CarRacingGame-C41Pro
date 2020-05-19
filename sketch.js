@@ -28,7 +28,7 @@ var GAMEOVER, gameOver, RESTART, reStart;
 var INSTRUCSTART, instrucStart;
 
 function preload() {
-  bg = loadImage("car-race-bg.png");
+  bg = loadImage("images\car-race-bg.png");
   
   bg.width = 600;
   bg.height = 300;
